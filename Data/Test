@@ -1,0 +1,52 @@
+{
+  "version": "v1.4",
+  "type": "notification",
+  "recordLocator": "ZAFMFX",
+  "trigger": {
+    "flightKey": "AA::LIT::3863::2021-Jul-19",
+    "flightEvt": "IN",
+    "evtTimestamp": 1626729093000
+  },
+  "bags": [
+    {
+      "bagKey": "9001084274::LIT::2021-Jul-19::-222195157",
+      "paxKey": "ZAFMFX::OHARE::JONAH::1",
+      "bagTagNumber": "9001084274",
+      "eventType": "Confirmed Early",
+      "reasonRef": "9001084274::Claim Area::1626715135094",
+      "lastUpdateTime": 1626715135505,
+      "paxCheckedBagCt": 1
+    }
+  ],
+  "cneNotificationType": "EARLY_BAG",
+  "notificationType": "Early",
+  "totalCheckedBagCount": 1,
+  "status": "Send To CNE",
+  "sentToCNETimeStamp": 1626729094709,
+  "disposition": [
+    {
+      "channel": "email",
+      "channelDetails": "cynthia.kelley@aa.com",
+      "disposition": "DELIVERED",
+      "timestamp": 1626715620000
+    },
+    {
+      "channel": "email",
+      "channelDetails": "No Contacts",
+      "disposition": "NO_CONTACT",
+      "timestamp": 1627306485013
+    }
+  ],
+  "dotComCorrelationId": "XREN040",
+  "notificationURL": "aa.com/trackbag/XREN040",
+  "notificationLanguage": "EN",
+  "customerOptionsAvailable": [],
+  "createTime": 1626715022197,
+  "lastUpdateTime": 1627306485426,
+  "requestedAt": 1626729093803,
+  "expiresAt": 1626730893803,
+  "isDispSubsriptionEnabled": true,
+  "isCneTestEnabled": false,
+  "isDeliveryAvailable": false,
+  "validUntil": 1626743493803
+}
